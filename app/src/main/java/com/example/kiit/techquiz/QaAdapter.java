@@ -65,7 +65,6 @@ public class QaAdapter extends ArrayAdapter {
                     }
                     else {
                         ans[position]=0;}
-                    //Toast.makeText(context, "" + ans[position], Toast.LENGTH_SHORT).show();
                 }catch (Exception e){}
 
 
