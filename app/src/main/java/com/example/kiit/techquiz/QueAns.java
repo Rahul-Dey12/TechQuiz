@@ -49,6 +49,7 @@ public class QueAns extends AppCompatActivity {
                 //Toast.makeText(QueAns.this, "" + count, Toast.LENGTH_SHORT).show();
                 Intent i=new Intent(QueAns.this,Score.class);
                 i.putExtra("score",count);
+                i.putExtra("name",getIntent().getExtras().getString("name"));
                 startActivity(i);
                 finish();
             }
@@ -70,11 +71,11 @@ public class QueAns extends AppCompatActivity {
         dataArrayList.add(data);
         data = new Data("4. Samsung is a", "A. Indian Comapany", "B. Chaina Company", "C. South Korea Comapany", "D. US Company", 3);
         dataArrayList.add(data);
-        data = new Data("5. What is full form of USB", "A. Unidirectional Serial Bus", "B. Universal Seria Bus", "C. Unidirectional Standard Bus", "D. Universal Standard Bus", 2);
+        data = new Data("5. What is full form of USB", "A. Unidirectional Serial Bus", "B. Universal Serial Bus", "C. Unidirectional Standard Bus", "D. Universal Standard Bus", 2);
         dataArrayList.add(data);
         data = new Data("6. What is full form of SMS", "A. Short Message Service", "B. Short Message Send", "C. Send Short Message", "D. None", 1);
         dataArrayList.add(data);
-        data = new Data("7. Whic among follwing is not a programming language", "A. Php", "B. Java", "C. IEEE", "D. Perl", 3);
+        data = new Data("7. Which among follwing is not a programming language", "A. Php", "B. Java", "C. IEEE", "D. Perl", 3);
         dataArrayList.add(data);
         data = new Data("8. Who is CEO of microsoft", "A. Bill Gates", "B. Satya Nadelaa", "C. Sundar Pichai", "D. None", 2);
         dataArrayList.add(data);
